@@ -51,6 +51,9 @@ export default {
       }
     }
   },
+  created () {
+    this.test()
+  },
   methods: {
     resetLoginForm () {
       this.$refs.loginFormRef.resetFields()

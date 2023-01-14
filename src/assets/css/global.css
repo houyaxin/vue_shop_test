@@ -34,3 +34,6 @@ body,
   display: flex;
   align-items: center;
 }
+.el-cascader-menu{
+  height: 400px;
+}
